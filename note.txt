@@ -1,0 +1,43 @@
+yarn add react
+yarn add react-dom
+
+./public
+./src
+
+yarn add @babel/core @babel/cli @babel/preset-env -D
+
+/* @babel/core -> maior parte das funcionalidade do babel
+/* @babel/cli -> usar o babel na linha de comando
+/* @babel/preset-env -> identifica o ambiente e converte o código da melhor maneira possivel
+
+./babel.config.js
+
+--run:
+yarn babel src/index.js --out-file dist/bundle.js
+
+-->babel entender o react
+yarn add @babel/preset-react -D   
+
+---------webpack---------
+
+yarn add webpack webpack-cli -D
+yarn add babel-loader
+
+-->criar o index html com o script:src
+yarn add html-webpack-plugin -D
+
+--> não será mais necessário ficar gerando um build novo manualmente a cada alteração que fizermos no código, já que essa ferramenta faz isso automaticamente a cada alteração nos arquivos.
+yarn add webpack-dev-server -D
+
+--> definir variaveis ambiente independente do sistema da pessoa(compatibilidade com windows)
+yarn add cross-env -D
+
+
+---------CSS-----------
+
+yarn add style-loader css-loader -D
+
+
+---------SASS--------
+yarn add node-sass -D
+yarn add sass-loader -D
