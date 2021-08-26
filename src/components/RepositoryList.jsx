@@ -11,7 +11,7 @@ export function RepositoryList(){
         <section className="repository-list">
             <h1>Lista de repositorios</h1>
             <ul>
-              <Repositoryitem repoItem={repoItem}/>      
+              <Repositoryitem reposito={repoItem}/>      
             </ul>
         </section>
     )

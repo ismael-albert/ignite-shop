@@ -41,3 +41,7 @@ yarn add style-loader css-loader -D
 ---------SASS--------
 yarn add node-sass -D
 yarn add sass-loader -D
+
+
+--------REACT REFRESH-------
+yarn add -D @pmmmwh/react-refresh-webpack-plugin@0.5.0-rc.5
