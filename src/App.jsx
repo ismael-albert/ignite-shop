@@ -5,9 +5,10 @@ import './styles/global.scss'
 export function App(){  
     return(
         <div>
-            <p>erfdsf</p>
- <RepositoryList/>
-     <Counter/>
+            
+        <RepositoryList/>
+        <Counter/>
+
         </div>
     )
     
