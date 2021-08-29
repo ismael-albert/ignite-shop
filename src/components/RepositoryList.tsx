@@ -3,9 +3,13 @@ import { Repositoryitem } from "./RepositoryItem";
 import "../styles/repositories.scss";
 
 //https://api.github.com/users/ismael-albert/repos
-
+interface Repository {
+  name: string;
+  description: string;
+  html_url: string;
+}
 export function RepositoryList() {
-  const [repositories, setRepositories] = useState([]);
+  const [repositories, setRepositories] = useState<Repository[]>([]);
 
   useEffect(() => {
     fetch("https://api.github.com/users/ismael-albert/repos")
@@ -19,7 +23,9 @@ export function RepositoryList() {
 
       <ul>
         {repositories.map((repository) => {
-          return <Repositoryitem repositoryyy={repository} />;
+          return (
+            <Repositoryitem key={repository.name} repositoryyy={repository} />
+          );
         })}
       </ul>
     </section>
