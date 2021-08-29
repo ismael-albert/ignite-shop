@@ -16,7 +16,7 @@ yarn add @babel/core @babel/cli @babel/preset-env -D
 yarn babel src/index.js --out-file dist/bundle.js
 
 -->babel entender o react
-yarn add @babel/preset-react -D   
+yarn add @babel/preset-react -D
 
 ---------webpack---------
 
@@ -45,3 +45,10 @@ yarn add sass-loader -D
 
 --------REACT REFRESH-------
 yarn add -D @pmmmwh/react-refresh-webpack-plugin@0.5.0-rc.5
+
+
+---------Typescript-----
+yarn add typescript -d
+yarn tsc --init
+yarn add @babel/preset-typescript
+yarn add @types/react-dom -D
