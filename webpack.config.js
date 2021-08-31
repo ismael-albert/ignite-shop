@@ -6,7 +6,7 @@ const isDevelopment = process.env.NODE_ENV !== "production";
 module.exports = {
   mode: isDevelopment ? "development" : "production",
 
-  /*ource maps para que seja possível debugar o código escrito da aplicação durante o desenvolvimento mesmo com o bundle deixando o nosso código confuso. */
+  /*source maps para que seja possível debugar o código escrito da aplicação durante o desenvolvimento mesmo com o bundle deixando o nosso código confuso. */
   devtool: isDevelopment ? "eval-source-map" : "source-map",
 
   /*entry -> fala onde fica o arquivo principal */
