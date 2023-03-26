@@ -2,7 +2,7 @@
     <a href="#"> Ignite Shop </a>
 </h1>
 
-![Preview](./igniteShop.gif)
+![Preview](https://github.com/ismael-albert/ignite-shop/blob/main/igniteshop.gif)
 
 ## 📄 Sobre:
 
