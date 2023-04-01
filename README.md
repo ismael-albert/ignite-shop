@@ -11,7 +11,7 @@ Projeto desenvolvido durante o Ignite da Rocketseat, com o objetivo de colocar e
 - Next;
 - Routes;
 - components;
-- Props;
+- Props; 
 - hooks;
 - context;
 ---
